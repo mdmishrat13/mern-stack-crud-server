@@ -10,7 +10,7 @@ const ObjectId = require('mongodb').ObjectId
 app.use(cors());
 app.use(express.json())
 
-const uri = `mongodb+srv://Mdmishrat13:MdLikhon@cluster0.fkofk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://username:passsword@cluster0.fkofk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
